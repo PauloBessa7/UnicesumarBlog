@@ -1,7 +1,7 @@
 {
   "name": "mysql-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "[Espeficicação de Requisitos e Avaliação Bimestral](https://docs.google.com/document/d/1yvZnEVfoK7_QiZc_B0FME_ZE8zQEMO95XcRXBQgdEiE/edit?usp=sharing)",
   "main": "index.js",
   "scripts": {
     "start": "ts-node --transpile-only src/index.ts"
