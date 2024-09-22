@@ -8,8 +8,8 @@ CREATE TABLE users (
   id INT AUTO_INCREMENT,
   name VARCHAR(30),
   email VARCHAR(50),
-  senha VARCHAR(30),  -- Coluna para armazenar a senha (geralmente com criptografia, então tamanho maior)
-  ativo BOOLEAN ,  -- Coluna para armazenar o status (ativo/inativo)
+  senha VARCHAR(30),  
+  ativo BOOLEAN , 
   papel_id INT,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   CONSTRAINT id_users_pk PRIMARY KEY (id),
@@ -22,7 +22,7 @@ INSERT INTO papel(id, descricao) VALUES (1, 'Administrador');
 
 
 INSERT INTO users(name, email, senha, ativo, papel_id) 
-VALUES ("Paulo Bessa", "paulo.bessa@gmail.com", "Admin", true, 1);
+VALUES ("Paulo Bessa", "renata.capoia@gmail.com", "Admin", true, 1);
 
 INSERT INTO users(name, email, senha, ativo, papel_id) 
 VALUES ("Rafael Labegalini", "rafael.labegalini@gmail.com", "123Mudar@", true, 1);
