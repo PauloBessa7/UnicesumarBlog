@@ -22,7 +22,7 @@ INSERT INTO papel(id, descricao) VALUES (1, 'Administrador');
 
 
 INSERT INTO users(name, email, senha, ativo, papel_id) 
-VALUES ("Paulo Bessa", "renata.capoia@gmail.com", "Admin", true, 1);
+VALUES ("Renata Capoia", "renata.capoia@gmail.com", "Admin", true, 1);
 
 INSERT INTO users(name, email, senha, ativo, papel_id) 
 VALUES ("Rafael Labegalini", "rafael.labegalini@gmail.com", "123Mudar@", true, 1);
